@@ -22,6 +22,7 @@ class Car extends Vehicle {
 
 // it's like copying it's property and methods, creates your own logic of the blueprint or class.
 class Motorcycle implements Vehicle {
+  // you still need a constructor even if there's no other property
   const Motorcycle();
   @override
   void accelerate() {
